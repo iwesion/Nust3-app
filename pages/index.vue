@@ -13,6 +13,7 @@
         <NuxtLink to="/demo1">通用layout布局orcustom布局</NuxtLink>
         <br/>
         <BaseButton></BaseButton>
+        <p>{{$t("title")}}</p>
     </div>
 </template>
 <script>
