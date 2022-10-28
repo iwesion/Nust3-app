@@ -1,7 +1,7 @@
 <!--
  * @Author: wesion
  * @Date: 2022-10-27 16:22:33
- * @LastEditTime: 2022-10-28 10:51:08
+ * @LastEditTime: 2022-10-28 11:11:27
  * @Description: 
 -->
 <template>
@@ -16,6 +16,18 @@
     <p>{{ $t('customMessage.hello', { msg: 'hello' }) }}</p>
     <p>{{ $t('customMessage1.title', { a: 'hello' ,b:111}) }}</p>
     <p>{{ $t('customMessage2.title', ["第一个","第二"]) }}</p>
+    <p v-for="content in $tm('businessMode')">
+        <h2>{{ $rt(content.desc) }}</h2>
+    </p>
+    <p v-for="content in $tm('ideaMode.missionData')">
+        <h2>{{ $rt(content.desc) }}</h2>
+    </p>
+    <!-- *   <template v-for="content in $tm('contents')">
+     *     <h2>{{ $rt(content.title) }}</h2>
+     *     <p v-for="paragraph in content.paragraphs">
+     *      {{ $rt(paragraph) }}
+     *     </p>
+     *   </template> -->
   </div>
 </template>
 
@@ -23,7 +35,7 @@
 import { useI18n } from "vue-i18n";
     const { t ,locale} = useI18n();
     // ideaMode:missionData
-    console.log(locale)
+    console.log(t("businessMode[0].desc"))
     // console.log(t("ideaMode.missionData[0].desc"))
     // console.log(t("ideaMode.missionData"))
 </script>
