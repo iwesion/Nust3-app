@@ -1,7 +1,7 @@
 /*
  * @Author: wesion
  * @Date: 2022-10-27 15:41:34
- * @LastEditTime: 2022-10-27 16:03:37
+ * @LastEditTime: 2022-10-27 17:54:15
  * @Description: 
  */
 import {createI18n} from 'vue-i18n';
@@ -16,7 +16,8 @@ export default defineNuxtPlugin((nuxtApp) =>{
         messages: {
           en,
           zh
-        }
+        },
+        flatJson:true
       })
 
       nuxtApp.vueApp.use(i18n)
