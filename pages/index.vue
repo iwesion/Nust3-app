@@ -1,3 +1,9 @@
+<!--
+ * @Author: wesion
+ * @Date: 2022-10-27 10:12:38
+ * @LastEditTime: 2022-10-31 16:01:51
+ * @Description: 
+-->
 <template>
     <div>
         
@@ -15,6 +21,8 @@
         <NuxtLink to="/demo1">通用layout布局orcustom布局</NuxtLink>
         <br/>
         <NuxtLink to="/idea">Go Idea Page</NuxtLink>
+        <br/>
+        <NuxtLink to="/dddd/28">Go [[live]] Page</NuxtLink>
         <br/>
         <BaseButton></BaseButton>
         
