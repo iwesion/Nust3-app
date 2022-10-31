@@ -1,7 +1,7 @@
 <!--
  * @Author: wesion
  * @Date: 2022-10-27 16:22:33
- * @LastEditTime: 2022-10-28 11:11:27
+ * @LastEditTime: 2022-10-28 16:58:20
  * @Description: 
 -->
 <template>
@@ -22,6 +22,7 @@
     <p v-for="content in $tm('ideaMode.missionData')">
         <h2>{{ $rt(content.desc) }}</h2>
     </p>
+    <p>{{$t(("testHomeMode.title"))}}</p>
     <!-- *   <template v-for="content in $tm('contents')">
      *     <h2>{{ $rt(content.title) }}</h2>
      *     <p v-for="paragraph in content.paragraphs">

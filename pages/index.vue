@@ -6,7 +6,7 @@
         <br/>
         <NuxtLink to="/detail">Go Detail Page</NuxtLink>
         <br/>
-        <NuxtLink to="/user-admin/99">Go User Page</NuxtLink>
+        <NuxtLink to="/user-admin/dd">Go User Page</NuxtLink>
         <br/>
         <NuxtLink to="/about">Go About</NuxtLink>
         <br/>

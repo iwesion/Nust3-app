@@ -1,9 +1,10 @@
 /*
  * @Author: wesion
  * @Date: 2022-10-27 15:38:48
- * @LastEditTime: 2022-10-28 10:59:11
+ * @LastEditTime: 2022-10-28 16:55:44
  * @Description: 
  */
+import home from '~/locales/home'
 export default {
     title: "秉持“坚守底线”的原则",
     desc: "守住底线，才能守住我们的良知，企业才有最起码的根基。我们始终坚持“品质优先，消费者权益优先”的最高原则，要做为消费者多说一句话、多争一分利的合格企业。",
@@ -43,6 +44,7 @@ export default {
       },
       customMessage2: {
         title:'{0}{1}不同命名类型'
-       }
+       },
+       testHomeMode:home
 
 }
