@@ -1,7 +1,7 @@
 <!--
  * @Author: wesion
  * @Date: 2022-10-27 10:12:38
- * @LastEditTime: 2022-10-31 16:01:51
+ * @LastEditTime: 2022-10-31 18:32:25
  * @Description: 
 -->
 <template>
@@ -24,6 +24,9 @@
         <br/>
         <NuxtLink to="/dddd/28">Go [[live]] Page</NuxtLink>
         <br/>
+        <NuxtLink to="/adaptive">Go Adaptive Page</NuxtLink>
+        <br/>
+        
         <BaseButton></BaseButton>
         
     </div>
