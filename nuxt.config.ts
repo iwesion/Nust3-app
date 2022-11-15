@@ -3,4 +3,7 @@ export default defineNuxtConfig({
     app: {
         pageTransition: { name: 'page', mode: 'out-in' }
       },
+      css:[
+        'element-plus/dist/index.css',
+    ]
 })
